@@ -1,0 +1,25 @@
+# Secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Runtime data (user documents and indexes)
+data/uploads/*
+data/index/*
+!data/uploads/.gitkeep
+!data/index/.gitkeep
+
+# Model caches / OS / IDE
+.cache/
+.DS_Store
+.idea/
+.vscode/
